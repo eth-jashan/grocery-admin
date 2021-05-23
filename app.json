@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "grocery-admin-app",
-    "slug": "grocery-admin-app",
-    "version": "1.0.0",
+    "name": "mogambo-admin-app",
+    "slug": "mogambo-admin-app",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -20,10 +20,16 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
+      "permissions": 
+      ["READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECEIVE_BOOT_COMPLETED"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jashan1709.mogamboaAdminApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
